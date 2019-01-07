@@ -2,7 +2,7 @@
 home-assistant.io
 
 # Viessmann scripts
-This folder contains scripts to connect to the ViCare service for example Viessmann gas boilers and allows to read out all interesting information and publish it on the MQTT broker.
+This folder contains scripts to connect to the ViCare service (for eg Viessmann gas boilers) and allows to read out all interesting information and publish it on the MQTT broker.
 It also contains a listener which subscribes to the MQTT and can change the Viessmann active mode.
 
 I run the mqttlistener script in a daemon mode : sudo python /home/pi/python_scripts/mqttlistener.py
