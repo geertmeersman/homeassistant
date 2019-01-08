@@ -13,6 +13,7 @@ The configuration.py contains the credentials of Viessmann and the MQTT broker.
 
 # TODO
 Creating a home assistant component
+Improve some error handling (but not critical now)
 
 # Integration in home assistant
 You can easily integrate this into home assistant by creating the following 
